@@ -3,7 +3,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Getting Started
 
 First, run the development server:
+
 基本的なV0テンプレ
+masterからブランチ切って使って
 
 ```bash
 npm run dev
