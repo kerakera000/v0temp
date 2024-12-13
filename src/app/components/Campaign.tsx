@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
-import { Button } from "@/components/ui/button"
 import { fetchCampaignData } from '../lib/fetchCampaignData'
 import { CampaignItem } from '../types/campaign'
 

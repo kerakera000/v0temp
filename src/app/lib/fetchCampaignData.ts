@@ -1,6 +1,6 @@
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "../firebase/firebaseConfig";
-import { CampaignData, CampaignItem } from "../types/campaign";
+import { CampaignItem } from "../types/campaign";
 
 export async function fetchCampaignData(): Promise<CampaignItem | null> {
   try {
