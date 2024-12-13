@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { Menu } from 'lucide-react'
-import { Button } from "@/components/ui/button"
+import { Button } from "@/app/components/ui/button"
 import MobileMenu from './MobileMenu'
 
 export default function Header() {

@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { Button } from "@/components/ui/button"
+import { Button } from "@/app/components/ui/button"
 import { fetchNewsData } from '../lib/fetchNewsData'
 import { NewsData } from '../types/news'
 

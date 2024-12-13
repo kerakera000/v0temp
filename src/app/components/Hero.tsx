@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
-import { Button } from "@/components/ui/button"
 import { fetchKvData } from '../lib/fetchKvData'
 import { KVData } from '../types/kv'
 
