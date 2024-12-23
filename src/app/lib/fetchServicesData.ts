@@ -15,6 +15,7 @@ export async function fetchServicesData(): Promise<ServicesData | null> {
           image: item.image || "",
           subtitle: item.subtitle || "",
           title: item.title || "",
+          text: item.text || "",
         })) || [],
       };
     } else {

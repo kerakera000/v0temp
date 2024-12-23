@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 py-8">
+    <footer className="bg-[#1a1a1a] py-8">
       <div className="container mx-auto">
         <div className="flex flex-col items-center gap-8">
           <div className="text-2xl font-bold">ロペスジム</div>
@@ -20,7 +20,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 text-center text-sm">
-          <p>&copy; 2023 WELLKUL All Rights Reserved.</p>
+          <p>&copy; 2023 All Rights Reserved.</p>
         </div>
       </div>
     </footer>

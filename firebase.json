@@ -1,0 +1,7 @@
+{
+  "hosting": {
+    "site": "hirosegym",
+
+    "public": "out"
+  }
+}

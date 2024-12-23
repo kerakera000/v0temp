@@ -50,7 +50,7 @@ export default function FlowPriceTrainer() {
       title: 'FLOW',
       subtitle: '入会の流れ',
       description: 'ウェルカルボクシングへの入会をご検討の方は、まずこちらをご覧ください。',
-      image: '/placeholder.svg?height=400&width=600',
+      image: '/image/flow.jpg',
       details: flowData?.flowItems || []
     },
     {
@@ -58,7 +58,7 @@ export default function FlowPriceTrainer() {
       title: 'PRICE',
       subtitle: '料金案内',
       description: '初回ビギナーコースからレギュラーコースまで、目的に合わせてご利用いただけます。',
-      image: '/placeholder.svg?height=400&width=600',
+      image: '/image/price.jpg',
       details: pricingData?.pricingPlans || []
     }
   ]

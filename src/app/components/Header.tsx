@@ -21,7 +21,7 @@ export default function Header() {
   }
 
   return (
-    <header className="bg-[#1a1a1a] fixed top-0 left-0 right-0 z-50 h-16">
+    <header className="bg-[#1a1a1a] fixed top-0 left-0 right-0 z-50 h-16 border-b border-[#494949]">
       <nav className="container mx-auto flex justify-between items-center h-full px-4">
         <Link href="/" className="text-2xl font-bold text-white">
           ロペスジム

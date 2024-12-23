@@ -70,6 +70,10 @@ export default function Service() {
             <div className="md:w-2/4 space-y-4">
               <h3 className="text-3xl font-bold text-[#E70E44]">{item.title}</h3>
               <p className="text-sm text-gray-400">{item.subtitle}</p>
+              <p
+                className="text-sm text-gray-400"
+                dangerouslySetInnerHTML={{ __html: item.text.replace(/\n/g, '<br>') }}
+              ></p>
             </div>
             <div className="md:w-2/4 relative h-[400px]">
               <Image
