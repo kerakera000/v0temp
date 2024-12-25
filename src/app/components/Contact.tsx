@@ -26,6 +26,7 @@ export default function Contact() {
         name,
         email,
         message,
+        status: "new", // 新しく追加
         createdAt: new Date()
       });
       setSubmitStatus('success')
@@ -46,7 +47,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="py-20 bg-[#333333]">
+    <section className="py-20 bg-[#333333]">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center text-[#E70E44] mb-12">
           お問い合わせ
@@ -130,13 +131,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <SuccessModal 
-        isOpen={isModalOpen} 
-        onClose={closeModal}
-        name={name}
-        email={email}
-        message={message}
-      />
+      <SuccessModal isOpen={isModalOpen} onClose={closeModal} />
     </section>
   )
 }
